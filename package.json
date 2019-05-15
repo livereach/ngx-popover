@@ -1,7 +1,9 @@
 {
   "name": "@livereach/lr-ngx-popover",
-  "version": "0.0.16",
+  "version": "0.0.18",
   "description": "Simple popover control for your angular2 applications using bootstrap3.",
+  "main": "build/es5/index.js",
+  "types": "build/es5/index.d.ts",
   "license": "MIT",
   "readmeFilename": "README.md",
   "private": false,
@@ -61,6 +63,7 @@
     "zone.js": "^0.7.6"
   },
   "scripts": {
-    "tsc": "ngc -p tsconfig-aot.json"
+    "tsc": "ngc -p tsconfig-aot.json",
+    "build" : "tsc"
   }
 }

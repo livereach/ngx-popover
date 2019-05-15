@@ -176,5 +176,8 @@ export class Popover implements OnChanges {
     getElement() {
         return this.viewContainerRef.element.nativeElement;
     }
+    isVisible() {
+        return this.visible;
+    }
 
 }

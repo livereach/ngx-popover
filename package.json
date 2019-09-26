@@ -2,12 +2,12 @@
   "name": "@livereach/lr-ngx-popover",
   "version": "0.0.26",
   "description": "Simple popover control for your angular2 applications using bootstrap3.",
-  "main": "build/es5/index.js",
+  "main": "build/package/index.js",
   "files": [
     "build",
     "README.md"
   ],
-  "types": "build/es5/index.d.ts",
+  "types": "build/package/index.d.ts",
   "license": "MIT",
   "readmeFilename": "README.md",
   "private": false,

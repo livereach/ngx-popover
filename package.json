@@ -3,6 +3,10 @@
   "version": "0.0.23",
   "description": "Simple popover control for your angular2 applications using bootstrap3.",
   "main": "build/es5/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
   "types": "build/es5/index.d.ts",
   "license": "MIT",
   "readmeFilename": "README.md",

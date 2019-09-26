@@ -67,6 +67,6 @@
   },
   "scripts": {
     "tsc": "ngc -p tsconfig-aot.json",
-    "build": "tsc"
+	"build": "npm run tsc"
   }
 }

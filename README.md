@@ -170,6 +170,7 @@ usages.
 ## Publishing
 
 ```
+npm run build
 npm version [patch|minor|major]
 git push --follow-tags
 npm publish --access=public

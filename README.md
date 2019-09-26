@@ -166,3 +166,11 @@ export class AppModule {
 
 Take a look on samples in [./sample](https://github.com/pleerock/ngx-popover/tree/master/sample) for more examples of
 usages.
+
+## Publishing
+
+```
+npm version [patch|minor|major]
+git push --follow-tags
+npm publish --access=public
+```

@@ -22,6 +22,7 @@
     "./src/index.ts"
   ],
   "angularCompilerOptions": {
-    "genDir": "build/factories"
+    "genDir": "build/factories",
+    "enableIvy": false
   }
 }

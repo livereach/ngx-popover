@@ -1,6 +1,6 @@
 {
   "name": "@livereach/lr-ngx-popover",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Simple popover control for your angular2 applications using bootstrap3.",
   "main": "build/package/index.js",
   "files": [
@@ -68,5 +68,8 @@
   "scripts": {
     "tsc": "ngc -p tsconfig-aot.json",
     "build": "npm run tsc"
+  },
+  "dependencies": {
+    "@angular-devkit/schematics": "^9.1.4"
   }
 }

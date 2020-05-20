@@ -161,5 +161,6 @@ usages.
 npm run build
 npm version [patch|minor|major]
 git push --follow-tags
+cd dist/lr-ngx-popover
 npm publish --access=public
 ```

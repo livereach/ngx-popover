@@ -16,7 +16,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "build": "ng build",
+    "build": "ng build --prod",
     "lint": "ng lint"
   },
   "peerDependencies": {

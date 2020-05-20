@@ -15,20 +15,8 @@ see [DEMO](http://plnkr.co/edit/tmGQ43m3OGhn8uoAYWua?p=preview).
 
 1. Install npm module:
     
-    `npm install ngx-popover --save`
+    `npm install lr-ngx-popover --save`
 
-2. If you are using system.js you may want to add this into `map` and `package` config:
-    
-    ```json
-    {
-        "map": {
-            "ngx-popover": "node_modules/ngx-popover"
-        },
-        "packages": {
-            "ngx-popover": { "main": "index.js", "defaultExtension": "js" }
-        }
-    }
-    ```
 
 ## Usage
 
@@ -83,7 +71,7 @@ Example of usage with dynamic html content:
 
 ```typescript
 import {Component} from "@angular/core";
-import {PopoverModule} from "ngx-popover";
+import {PopoverModule} from "@livereach/lr-ngx-popover";
 
 @Component({
     selector: "app",

@@ -1,7 +1,7 @@
 {
   "name": "@livereach/lr-ngx-popover",
   "description": "Simple popover control for your angular applications using bootstrap3.",
-  "version": "0.0.28",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Umed Khudoiberdiev",
